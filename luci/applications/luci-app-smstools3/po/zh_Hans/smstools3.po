@@ -1,292 +1,249 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8"
+msgstr ""
+"Language: zh_Hans\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Y0518 <yangqi@easybj.cn>\n"
 
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:9
-msgid "Smstools3 SMS"
-msgstr "短信服务"
-
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:10
 msgid "Incoming"
 msgstr "收件箱"
 
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:11
 msgid "Outcoming"
 msgstr "发件箱"
 
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:12
 msgid "Push"
 msgstr "发送"
 
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:13
-msgid "Command"
-msgstr "AT命令"
+msgid "Phonebook"
+msgstr "电话簿"
 
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:14
+msgid "Commands"
+msgstr "命令"
+
 msgid "Setup"
 msgstr "设置"
 
-#: applications/luci-app-smstools3/luasrc/controller/smstools3.lua:15
 msgid "User Script"
-msgid "用户脚本"
+msgstr "用户脚本"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:76
-msgid "Delete all incoming messages!"
-msgstr "删除所有接收的消息!"
+msgid "Send Date"
+msgstr "发送日期"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:83
-msgid "Smstools3: Incoming Messages"
+msgid "Recv.Date"
+msgstr "接收日期"
+
+msgid "From"
+msgstr "发件人"
+
+msgid "Smstools3: Incoming messages"
 msgstr "Smstools3: 接收的消息"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:87
-msgid "From"
-msgstr "来自"
+msgid "Remove SMS"
+msgstr "删除短信"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:88
-msgid "Send"
-msgstr "发送"
+msgid "Refresh"
+msgstr "刷新"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:89
-msgid "Recieve"
-msgstr "接收"
+msgid "Time(sec)"
+msgstr "时间(秒)"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:90
-msgid "Message"
-msgstr "消息内容"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:96
-msgid "Remove All"
-msgstr "全部移除"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/in.htm:96
-msgid "Delete All incoming Messages"
-msgstr "删除所有收到的消息"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:74
-msgid "All outgoing messages are deleted!"
-msgstr "所有外发消息已删除！"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:82
-msgid "Smstools3: Outcoming Messages"
-msgstr "Smstools3: 发送的消息"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:86
 msgid "To"
 msgstr "收件人"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:87
-msgid "Send"
-msgstr "发送时间"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:88
-msgid "Send Time"
-msgstr "发送时间（秒）"
-
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:89
 msgid "Message"
-msgstr "消息内容"
+msgstr "消息"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:94
-msgid "Remove All"
-msgstr "删除全部"
+msgid "Smstools3: Outgoing messages"
+msgstr "Smstools3: 发送的消息"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/out.htm:94
-msgid "Delete All Sent Messages"
-msgstr "删除所有已发送消息"
+msgid "Smstools3: Commands"
+msgstr "Smstools3: 命令"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:2
-msgid "Smstools3: Send Message"
-msgstr "Smstools3：发送短信"
+msgid "Command List interface."
+msgstr "通过短信命令的控制界面"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:16
-msgid "You must enter a phone number!"
-msgstr "您必须输入电话号码！"
+msgid "Phone"
+msgstr "电话号码"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:22
-msgid "Invalid phone number!"
-msgstr "无效的电话号码！"
+msgid "Root Phone list to accept commands."
+msgstr "接受命令的根电话号码列表"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:31
-msgid "Message is blank!"
-msgstr "消息内容为空！"
+msgid "Phone number must be without \"+\""
+msgstr "电话号码必须不包含 \"+\""
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:43
-msgid "Message sent."
-msgstr "消息已发送。"
+msgid "Command List"
+msgstr "命令列表"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:64
-msgid "Send To"
-msgstr "发送到"
+msgid "SMS Command"
+msgstr "短信命令"
 
-#: applications/luci-app-smstools3/luasrc/view/modem/sms/send.htm:80
-msgid "Push"
-msgstr "发送"
+msgid "Execute"
+msgstr "执行"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:11
-msgid "Setup smstools3"
-msgstr "安装与配置smstools3"
+msgid "Delay"
+msgstr "延迟"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:12
+msgid "Delay in sec."
+msgstr "延迟时间（秒）"
+
+msgid "Answer"
+msgstr "回复"
+
+msgid "Answer MSG"
+msgstr "回复消息"
+
+msgid "Smstools3: Phonebook"
+msgstr "Smstools3: 电话簿"
+
+msgid "Phonebook"
+msgstr "电话簿"
+
+msgid "Each line must have the following format: 'Description;Phone Number'. For user convenience, the file is saved to the location <code>/etc/smstools3.pb</code>."
+msgstr "每行应按照以下格式：'描述;电话号码'。为了方便用户，该文件将保存在<code>/etc/smstools3.pb</code>位置。"
+
+msgid "Smtools3: User Script"
+msgstr "Smtools3: 用户脚本"
+
+msgid "Edit smstools3 user script. Add user's actions for incoming and outcoming messages.<br />Is shell script for smstools3 scenario. See <a href=\"http://smstools3.kekekasvi.com/index.php?p=eventhandler\">smstools3 manual page</a> for more details."
+msgstr "编辑smstools3的用户脚本。为接收到和发送的消息添加用户的处理动作。<br />这是用于smstools3场景的Shell脚本。欲了解更多信息，请参阅<a href=\"http://smstools3.kekekasvi.com/index.php?p=eventhandler\">smstools3手册页面</a>。"
+
+msgid "Edit User script smstools3.<br />File stored in <code>/etc/smstools3.user</code>"
+msgstr "编辑Smstools3用户脚本。<br />文件存储在 <code>/etc/smstools3.user</code>"
+
+msgid "User interface for sending SMS via smsd."
+msgstr "通过smsd发送短信的用户界面。"
+
+msgid "Smstools3: send message"
+msgstr "Smstools3：发送消息"
+
+msgid "Phone Number"
+msgstr "电话号码"
+
+msgid "Text Message"
+msgstr "文本消息"
+
+msgid "Please specify the phone number to send"
+msgstr "请输入接收短信的电话号码"
+
+msgid "Message sent"
+msgstr "消息已发送"
+
+msgid "Clear text"
+msgstr "清除文本"
+
+msgid "Send message"
+msgstr "发送短信"
+
+msgid "Smstools3: Setup"
+msgstr "Smstools3：设置"
+
 msgid "Configure smstools3 daemon."
-msgstr "配置smstools3守护程序。"
+msgstr "配置smstools3守护进程。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:17
+msgid "General"
+msgstr "常规"
+
+msgid "Advanced"
+msgstr "高级"
+
 msgid "Decode SMS"
 msgstr "解码短信"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:18
 msgid "Decode Incoming messages to UTF-8 codepage."
-msgstr "将接收到的短信消息解码为UTF-8编码格式。"
+msgstr "将接收到的消息解码为UTF-8编码。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:20
 msgid "Unexepted Input"
-msgstr "未预期输入"
+msgstr "未预期的输入"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:21
 msgid "Enable Unexpected input from COM port."
-msgstr "启用从COM端口接收非预期指令的功能。"
+msgstr "允许COM端口接收非预设服务的命令。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:23
-msgid "Delay time"
-msgstr "延迟时间"
-
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:23
-msgid "Default value: 10<br />Smsd sleep so many seconds when it has nothing to do."
-msgstr "默认值：10秒<br />当无任务执行时，smsd将会保持休眠状态若干秒。"
-
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:27
 msgid "SMS Storage"
 msgstr "短信存储"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:28
 msgid "Select storage to save SMS."
 msgstr "选择用于保存短信的存储方式。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:29
 msgid "Temporary"
 msgstr "临时"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:30
 msgid "Persistent"
-msgstr "永久"
+msgstr "持久化"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:34
-msgid "Device"
-msgstr "设备（COM端口）"
+msgid "Select COM port"
+msgstr "选择COM端口"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:34
-msgid "Select COM port."
-msgstr "选择COM端口。"
+msgid "Init string"
+msgstr "初始化串行指令"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:43
+msgid "Initialise modem for more vendors"
+msgstr "针对更多供应商初始化调制解调器"
+
+msgid "ASR or more"
+msgstr "ASR或其他类似设备"
+
+msgid "Qualcomm or more"
+msgstr "Qualcomm或其他类似设备"
+
 msgid "PIN Code"
 msgstr "PIN码"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:44
 msgid "Default value: not in use.<br />Specifies the PIN number of the SIM card inside the modem."
-msgstr "默认值：未使用。<br />指定调制解调器中SIM卡的PIN码。"
+msgstr "默认值：未使用。<br />指定内置在调制解调器中的SIM卡的PIN码。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:47
 msgid "Loglevel"
 msgstr "日志级别"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:48
-msgid "Verbose logging output."
-msgstr "详细日志输出。"
+msgid "Logging output."
+msgstr "记录输出等级。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:60
-msgid "Enable LED indication incoming messages."
-msgstr "启用LED指示灯显示收到的短信消息。"
+msgid "Emergency"
+msgstr "紧急情况"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:61
+msgid "Alert"
+msgstr "警报"
+
+msgid "Critical"
+msgstr "严重"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Notice"
+msgstr "通知"
+
+msgid "Info"
+msgstr "信息"
+
+msgid "Debug"
+msgstr "调试"
+
 msgid "Check network"
 msgstr "检查网络"
 
-msgid "Setup network checking. Some modems incorrect test network." 
-msgstr "设置网络检查功能。某些调制解调器可能错误地测试网络状态。"
+msgid "Ignore"
+msgstr "忽略"
 
-msgid "Ignore check"
-msgstr "始终忽略检查"
+msgid "Always"
+msgstr "始终"
 
-msgid "Always check"
-msgstr "始终进行检查"
+msgid "Before messages"
+msgstr "在消息之前"
 
-msgid "Check prepare message"
-msgstr "在处理消息时进行检查"
+msgid "Setup network checking. Some modems incorrect test network."
+msgstr "设置网络检测。某些调制解调器可能无法正确检测网络状况。"
 
 msgid "Ignore signal level"
 msgstr "忽略信号强度"
 
 msgid "Some devices do not support Bit Error Rate"
-msgstr "一些设备不支持比特误码率（BER）"
+msgstr "某些设备不支持误码率（Bit Error Rate）"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:62
-msgid "Select LED"
-msgstr "选择LED灯"
-
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smstools3.lua:63
 msgid "LED indicate to Incoming messages."
-msgstr "使用LED灯指示收到的短信消息。"
+msgstr "使用LED指示灯显示接收到的短信。"
 
-#: applications/luci-app-smstools3/luasrc/model/cbi/modem/smsevent.lua:11
-msgid "Edit smstools3 user script.<br />Add user's actions for incoming and outcoming messages.<br />Is shell script for smstools3 scenario.<br/>See <a href=\"http://smstools3.kekekasvi.com/index.php?p=eventhandler\">smstools3 manual page</a> for more details."
-msgstr "编辑smstools3用户脚本。<br />添加针对接收到和发送的短信消息的自定义处理动作。<br />这是一个为smstools3场景设计的shell脚本。<br/>更多详情请参阅<a href=\"http://smstools3.kekekasvi.com/index.php?p=eventhandler\">smstools3 manual page</a>。"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:8
-msgid "Smstools3: command list interface."
-msgstr "Smstools3：命令列表界面。"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:10
-msgid "Root Phone numbers"
-msgstr "根电话号码（控制号码）"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:13
-msgid "Phone number"
-msgstr "电话号码"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:14
-msgid "List phone numbers without +"
-msgstr "列出不带+号的电话号码"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:17
-msgid "Command List"
-msgstr "命令列表"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:21
-msgid "Description"
-msgstr "描述"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:22
-msgid "SMS command"
-msgstr "短信命令"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:23
-msgid "Execute"
-msgstr "执行"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:24
-msgid "Delay"
-msgstr "延迟时间"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:25
-msgid "Delay in sec."
-msgstr "延迟时间（秒）"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:26
-msgid "Answer"
-msgstr "回复"
-
-#: /applications/luci-app-smstools3/luasrc/model/cbi/modem/smscommand.lua:26
-msgid "Answer MSG"
-msgstr "回复消息"
-
-
-
-
-
-
-
-
-
-
-
-
+msgid "Select LED"
+msgstr "选择LED指示灯"
