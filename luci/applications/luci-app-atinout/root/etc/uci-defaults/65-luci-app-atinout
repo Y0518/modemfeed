@@ -6,7 +6,41 @@ if [ "$PKG_UPGRADE" != 1 ]; then
 fi
 
 if [ ! -f /etc/atcommands.user  ]; then
-	echo "Demo command \"ATI\";ATI" > /etc/atcommands.user
+	echo "产品标识信息;ATI 
+制造商标识;AT+GMI
+TA模型识别;AT+GMM
+软件版本标识;AT+GMR 
+制造商识别;AT+CGMI 
+模型识别;AT+CGMM 
+TA软件版本识别;AT+CGMR
+移动设备标识imei;AT+GSN
+请求产品序列号标识;AT+CGSN
+查询IP地址;AT+CGPADDR
+移远配置IPV6拨号;AT+CGDCONT=1,\"IPV4V6\",\"\"
+移远查询拨号配置;AT+CGDCONT?
+移远查询USB模式;AT+QCFG=\"usbnet\"
+移远切换USB-RMNET模式;AT+QCFG=\"usbnet\",0
+移远切换USB-ECM模式;AT+QCFG=\"usbnet\",1
+移远切换USB-RNDIS模式;AT+QCFG=\"usbnet\",3
+移远切换USB-NCM模式;AT+QCFG=\"usbnet\",5
+移远移动数据拨号;AT+qnetdevctl=3,1,1
+移远移动数据断开拨号;AT+qnetdevctl=0,1,1
+移远移动数据拨号(5G);AT+qnetdevctl=1,3,1
+移远移动数据断开拨号(5G);AT+qnetdevctl=0,3,1
+移远查看温度;AT+QTEMP
+重启移远模块;AT+CFUN=1,1
+EC200工程模式查询;AT*PROD?
+EC200工程模式;AT*PROD=1
+EC20改串;at+egmr=1,7,\"863683070698823\"
+EC200退出工程模式;at*prod=0
+EC20重启;AT+CFUN=1,1
+SIM7X00 查询IMEI;AT+SIMEI?
+SIM7X00 修改IMEI;AT+SIMEI=866241026124456
+MC74XX_OPENLOCK校验码查询;AT\!OPENLOCK?
+MC74XX使用计算后的密码解锁OPENLOCK;AT\!OPENLOCK=\"\"
+MC74XX解锁IMEI;AT\!NVIMEIUNLOCK
+MC74XX写入IMEI;AT\!NVENCRYPTIMEI=86,62,41,02,61,24,45,60
+MC74XX重启;AT\!RESET" > /etc/atcommands.user
 fi
 
 rm -rf /tmp/luci-*
